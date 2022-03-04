@@ -1,0 +1,26 @@
+{
+  "name": "node_expressbasic",
+  "version": "0.0.1",
+  "description": "express es un framework, es el mas popular de node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "javascript"
+  ],
+  "author": "jorge rafael callejo flores",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
